@@ -1,0 +1,29 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00a0b0"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@string/uf_nightclubs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:gravity="center"
+        android:padding="@dimen/padding_5dp"
+        android:text="@string/uf_nightclubs"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+	    
+	<ListView
+	    android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_weight="1"
+        android:listSelector="@drawable/list_selector"
+        tools:listitem="@android:layout/simple_list_item_1" >
+        
+	</ListView>
+	
+</TableLayout>
